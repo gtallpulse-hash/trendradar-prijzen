@@ -1,0 +1,37 @@
+ticker,naam,groep
+SPYI.DE,SPDR MSCI ACWI IMI (Xetra) - jouw kern-ETF,kern
+IMIE.PA,SPDR MSCI ACWI IMI (Euronext Parijs),kern
+XLK,Technologie (VS-sector),sector
+XLF,Financiele sector (VS-sector),sector
+XLV,Gezondheidszorg (VS-sector),sector
+XLE,Energie (VS-sector),sector
+XLI,Industrie (VS-sector),sector
+XLY,Niet-noodzakelijke consumptie (VS-sector),sector
+XLP,Basisconsumptie (VS-sector),sector
+XLU,Nutsbedrijven (VS-sector),sector
+XLB,Grondstoffen (VS-sector),sector
+XLRE,Vastgoed (VS-sector),sector
+XLC,Communicatie (VS-sector),sector
+URTH,Wereld (MSCI World),regio
+SPY,Verenigde Staten (S&P 500),regio
+EXSA.DE,Europa (STOXX Europe 600),regio
+^BFX,Belgie (BEL 20),regio
+EWJ,Japan,regio
+EEM,Opkomende landen,regio
+^TNX,10-jarige Amerikaanse rente,markt
+BZ=F,Olieprijs (Brent),markt
+GC=F,Goudprijs,markt
+EURUSD=X,Euro in dollar,munt
+EURJPY=X,Euro in yen,munt
+EURKRW=X,Euro in Koreaanse won,munt
+EURGBP=X,Euro in Britse pond,munt
+EURCHF=X,Euro in Zwitserse frank,munt
+NVDA,Nvidia (meetbedrijf AI),thema
+TSM,TSMC (meetbedrijf AI),thema
+MU,Micron (meetbedrijf AI),thema
+LITE,Lumentum (meetbedrijf AI),thema
+VRT,Vertiv (meetbedrijf AI),thema
+GEV,GE Vernova,idee
+AXTI,AXT Inc.,idee
+009150.KS,Samsung Electro-Mechanics,idee
+3110.T,Nitto Boseki,idee

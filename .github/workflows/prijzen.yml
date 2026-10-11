@@ -1,0 +1,28 @@
+name: Prijzen ophalen
+
+on:
+  schedule:
+    - cron: "30 3 * * *"   # elke dag 03:30 UTC = 05:30 Belgische zomertijd, 04:30 wintertijd
+  workflow_dispatch: {}       # knop "Run workflow" om het met de hand te starten
+
+permissions:
+  contents: write
+
+jobs:
+  prijzen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas
+      - run: python fetch_prices.py
+      - name: Resultaat bewaren
+        run: |
+          git config user.name "prijsmotor"
+          git config user.email "prijsmotor@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Prijzen $(date -u +%Y-%m-%d)"
+          git push
