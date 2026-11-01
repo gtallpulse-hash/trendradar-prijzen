@@ -1,5 +1,5 @@
 {
- "bijgewerkt_utc": "2026-10-31 09:53",
+ "bijgewerkt_utc": "2026-11-01 10:44",
  "bron": "Yahoo Finance via yfinance (onofficieel; controleer belangrijke cijfers)",
  "uitleg": {
   "koers": "laatste slotkoers in de munt van de beurs",
@@ -356,16 +356,16 @@
   "EURJPY=X": {
    "naam": "Euro in yen",
    "groep": "munt",
-   "datum": "2026-10-30",
-   "koers": 176.472,
-   "sma200": 183.291,
+   "datum": "2026-11-01",
+   "koers": 175.65,
+   "sma200": 183.2492,
    "boven_sma200": false,
-   "afstand_sma200_pct": -3.7,
+   "afstand_sma200_pct": -4.1,
    "m1": -1.1,
-   "m3": -2.7,
-   "j1": -0.6,
+   "m3": -3.4,
+   "j1": -1.4,
    "top_52w": 187.558,
-   "onder_top_pct": -5.9,
+   "onder_top_pct": -6.3,
    "munt": "JPY"
   },
   "EURKRW=X": {
@@ -401,16 +401,16 @@
   "EURCHF=X": {
    "naam": "Euro in Zwitserse frank",
    "groep": "munt",
-   "datum": "2026-10-30",
-   "koers": 0.9209,
+   "datum": "2026-11-01",
+   "koers": 0.9206,
    "sma200": 0.9235,
    "boven_sma200": false,
    "afstand_sma200_pct": -0.3,
-   "m1": -2.7,
-   "m3": -1.2,
+   "m1": -1.4,
+   "m3": -1.3,
    "j1": -1.1,
    "top_52w": 0.9468,
-   "onder_top_pct": -2.7,
+   "onder_top_pct": -2.8,
    "munt": "CHF"
   },
   "NVDA": {
