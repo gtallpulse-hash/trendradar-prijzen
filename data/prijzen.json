@@ -1,5 +1,5 @@
 {
- "bijgewerkt_utc": "2026-11-21 11:36",
+ "bijgewerkt_utc": "2026-11-22 11:50",
  "bron": "Yahoo Finance via yfinance (onofficieel; controleer belangrijke cijfers)",
  "uitleg": {
   "koers": "laatste slotkoers in de munt van de beurs",
@@ -312,31 +312,21 @@
    "naam": "Olieprijs (Brent)",
    "groep": "markt",
    "datum": "2026-11-20",
-   "koers": 92.57,
-   "sma200": 94.5984,
+   "koers": 89.95,
+   "sma200": 94.5853,
    "boven_sma200": false,
-   "afstand_sma200_pct": -2.1,
-   "m1": -18.2,
-   "m3": 0.4,
-   "j1": 45.8,
+   "afstand_sma200_pct": -4.9,
+   "m1": -20.5,
+   "m3": -2.4,
+   "j1": 41.6,
    "top_52w": 118.35,
-   "onder_top_pct": -21.8,
+   "onder_top_pct": -24.0,
    "munt": "USD"
   },
   "GC=F": {
    "naam": "Goudprijs",
    "groep": "markt",
-   "datum": "2026-11-20",
-   "koers": 3515.3999,
-   "sma200": 4444.6805,
-   "boven_sma200": false,
-   "afstand_sma200_pct": -20.9,
-   "m1": -13.4,
-   "m3": -25.2,
-   "j1": -13.9,
-   "top_52w": 5318.3999,
-   "onder_top_pct": -33.9,
-   "munt": "USD"
+   "fout": "te weinig koersen"
   },
   "EURUSD=X": {
    "naam": "Euro in dollar",
